@@ -18,21 +18,29 @@ html, body{
     font-family: payback;
     src: url('payback.ttf');
 }
+@font-face {
+    font-family: league_title;
+    src: url('Friz\ Quadrata\ Bold.otf');
+}
 nav {
     height: 10vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     padding: 0 50px;
 }
 .logo>a {
     font-size: 2.5rem;
     color: rgb(196, 161, 91);
-    text-shadow: 5px 5px 3px rgba(0, 0, 0, 0.7);
+    font-family: 'league_title', sans-serif;
 }
 .current {
-    color: rgb(237, 220, 145);
+    background-color: rgb(237, 220, 145);
+    padding: 6px 15px;
+    border-radius: 15px;
+    box-shadow: #555;
+    text-shadow: 3px 3px 5px rgb(0, 0, 0);
 }
 a {
     text-decoration: none;
